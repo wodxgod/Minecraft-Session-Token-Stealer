@@ -4,7 +4,7 @@
 # Features
  - No local caching
  - Transferring via Discord webhook
- - No external Python modules needed (**TODO**)
+ - \[**todo**\] No external Python modules needed
 
 <br>
 
