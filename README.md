@@ -4,4 +4,4 @@
 # Features
  - No local caching
  - Transferring via Discord webhook
- - [ ] No external Python modules needed **TODO**
+ - No external Python modules needed (**TODO**)
