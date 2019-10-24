@@ -18,7 +18,7 @@
 
 # Requirements on Victim's Machine
 - Python 3.x
-- 'discord_webhook' PIP module
+- 'discord_webhook' PIP module, installed via `python -m pip install discord_webhook`.
 
 <br>
 
