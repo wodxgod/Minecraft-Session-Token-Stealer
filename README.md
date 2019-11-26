@@ -32,7 +32,7 @@ This version of the stealer only supports **Windows**.
 # Author
 - **WodX**
     - [Github](https://github.com/WodXTV)
-    - [Twitter](https://twitter.com/wodsex)
+    - [Twitter](https://twitter.com/wodxgod)
     - [Discord](https://profiles.pw/profile/621044372951269417)
     - [PayPal.me](https://www.paypal.com/paypalme2/wodx)
 
