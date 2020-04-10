@@ -6,7 +6,7 @@ import os
 from urllib.request import Request, urlopen
 
 # configuration
-WEBHOOK_URL = "https://discordapp.com/api/webhooks/698248517814190130/IV5pyY3vxBacvX6kP-fdgaIRmNhMWWzgKYscY7r13_0sA_QhVB1dIeZr509P-8-vH7-T"
+WEBHOOK_URL = "WEBHOOK HERE"
 
 def uuid_dashed(uuid):
     return f"{uuid[0:8]}-{uuid[8:12]}-{uuid[12:16]}-{uuid[16:21]}-{uuid[21:32]}"
